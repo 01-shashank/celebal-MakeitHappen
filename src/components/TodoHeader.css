@@ -1,0 +1,33 @@
+.TodoHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 10px;
+}
+
+.todoHeader__hash{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.todoHeader__left > h3{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.todoHeader__right{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    justify-content: space-between;
+    
+}
+
+.TodoHeader__right>.MuiSvgIcon-root{
+    padding: 5px;
+    cursor: pointer;
+}  

@@ -1,0 +1,41 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #271f26;
+
+}
+
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #15131f;
+    color: white;
+    border-bottom: 2px solid #dce2ee;
+}
+
+.sidebar__workers{
+    flex: 1;
+    cursor: pointer;
+}
+
+.sidebar__addworkers:hover{
+    color: white;
+}
+
+.sidebar__workersheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #15131f23;
+    color: rgb(253, 253, 253);
+}
+
+.sidebar__header{
+    display: flex;
+    align-items: center;
+}

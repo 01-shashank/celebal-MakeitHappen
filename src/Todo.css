@@ -1,0 +1,43 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    background-color: #fee7e7;
+    height: 100vh;
+}
+
+.todo_lists{
+    flex: 1;
+}
+
+
+.todo__input{
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    border-top: 1px solid gray;
+    background-color: #384661;
+
+}
+
+.todo__input>form>input{
+    padding: 15px;
+    background: transparent;
+    border: none;
+    outline-width: 0;
+    color: white;
+    font-size: large;
+    width: 100%;
+}
+
+.todo__input>form{
+    flex: 1;
+}
+
+.todo__inputButton{
+    display: none;
+}

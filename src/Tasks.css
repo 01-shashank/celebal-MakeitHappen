@@ -1,0 +1,16 @@
+.tasks{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: rgb(17, 17, 17);
+}
+
+.tasks__info{
+    margin-left: 20px;
+}
+
+.tasks__timestamp{
+    color: rgb(27, 17, 17);
+    margin-left: 20px;
+    font-size: x-small;
+}
